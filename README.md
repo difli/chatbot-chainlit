@@ -4,7 +4,7 @@
 ## get started
 install dependencies
 ```
-pip install -r requirement.txt
+pip install -r requirements.txt
 ```
 run the travel chatbot
 ```
