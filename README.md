@@ -6,6 +6,19 @@ install dependencies
 ```
 pip install -r requirements.txt
 ```
+make a copy of .env.example
+```commandline
+cp .env.example .env
+```
+edit the environment variables of the [.env](.env.example) file
+```
+OPENAI_API_KEY=
+SECURE_CONNECT_BUNDLE_PATH=
+ASTRA_DB_TOKEN_BASED_USERNAME=
+ASTRA_DB_TOKEN_BASED_PASSWORD=
+ASTRA_DB_KEYSPACE=rag_chat_bot
+ASTRA_DB_TABLE_NAME=rag_chat_bot
+```
 run the travel chatbot
 ```
 chainlit run chatbot.py
