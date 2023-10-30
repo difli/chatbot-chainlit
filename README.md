@@ -5,6 +5,10 @@
 - [signup](https://astra.datastax.com/signup) for Astra 
 - [create](https://docs.datastax.com/en/astra-serverless/docs/getting-started/create-db-choices.html#create-vs-db) a Astra DB vector db instance 
 ## get started
+clone this repo 
+```
+git clone https://github.com/difli/chatbot-chainlit.git
+``` 
 install dependencies
 ```
 pip install -r requirements.txt
