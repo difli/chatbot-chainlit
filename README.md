@@ -1,6 +1,9 @@
 # chatbot-chainlit
 [chatbot.py](./chatbot.py) is a travel chatbot example for retrieval augmented generation (rag). [chatbot-agent-restaurant.py](./chatbot-agent-restaurant.py) is a restaurant chatbot that leverages rag + langchain agent using tools.  
 
+## prerequisites
+- [signup](https://astra.datastax.com/signup) for Astra 
+- [create](https://docs.datastax.com/en/astra-serverless/docs/getting-started/create-db-choices.html#create-vs-db) a Astra DB vector db instance 
 ## get started
 install dependencies
 ```
